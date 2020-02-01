@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* font-size: 16px; */
+  font-size: 1em;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 60px;
+  /* background-color: #f7f7f7; */
+  background-color: #fafafa;
+  padding-top: 20px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content: space-between;
+}
+.header > div {
+  font-size: 1.2em;
+  margin: auto 20px;
+  color: #3d4152;
+}
+
+button > * {
+  pointer-events: none;
+}
+
+.restaurants {
+  display: flex;
+  flex-wrap: wrap;
+}
+.restaurants h2 {
+  display: flex;
+  justify-content: center;
+}
+.restaurant {
+  flex-grow: 1;
+  width: 33%;
+  background: #ccc;
+  border: 2px solid white;
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Biriyani Cafe",
+    "cuisine": "Indian ,Mughal",
+    "startTime": "11:00am",
+    "timeToDeliver": "45mins",
+    "RsForTwo": "Rs450",
+    "offers": "20%"
+  },
+  {
+    "name": "Night Biriyani",
+    "cuisine": "Chienesse ,Mughal",
+    "startTime": "4:00pm",
+    "timeToDeliver": "45mins",
+    "RsForTwo": "Rs950",
+    "offers": "40%"
+  }
+]
